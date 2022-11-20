@@ -1,0 +1,54 @@
+<html>
+    <style>
+        body  
+            {  
+            background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210302/pngtree-crop-green-rice-light-effect-wallpaper-image_571433.jpg");  
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }  
+        .btn-group button {
+          background-color: #04AA6D; /* Green background */
+          border: 1px solid green; /* Green border */
+          color: white; /* White text */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          float: center; /* Float the buttons side by side */
+        }
+        
+        /* Clear floats (clearfix hack) */
+        .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #3e8e41;
+        }
+        </style>
+<body>
+    <h1><center> Top 10 States with Most Area</h1></center></h1>
+    <center>
+    <div class="btn-group">
+      <a href ="first.html"><button>Home</button></a>
+      <a href ="dashboard.html"><button>Dashboard</button></a>
+      <a href ="chart1.html"><button>Seasons with Average Productions</button></a>
+      <a href ="chart2.html"><button>With Years of Area and Production</button></a>
+      <a href ="chart4.html"><button>State with Crop Production</button></a>
+      <a href ="chart5.html"><button>States with Crop Production Along with Season</button></a>
+      </div>
+    </center>
+      <br>
+      <br>
+       <center>
+                <iframe src="https://eu2.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FCrop%2BProduction&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model000001841d3b5022_00000000" width="1200" height="800" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+       </center>
+</body>
+
+    </html>
